@@ -1,4 +1,3 @@
--- Drops the blogger if it exists currently --
-DROP DATABASE IF EXISTS blogger;
--- Creates the "blogger" database --
-CREATE DATABASE blogger;
+CREATE DATABASE beConnectedDB;
+USE beConnectedDB;
+
