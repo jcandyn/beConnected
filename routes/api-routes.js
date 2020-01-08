@@ -50,7 +50,8 @@ module.exports = function(app) {
   // POST route for saving a new post
   app.post("/api/contacts", function(req, res) {
     db.Contacts.create({
-        name: req.body.name
+        name: req.body.name,
+        contacted: req.body.contacted
     }).then(function(result) {
       res.json(result)
     })
